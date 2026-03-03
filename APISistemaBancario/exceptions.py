@@ -1,0 +1,2 @@
+class ClientAlreadyExistsError(Exception):
+    pass

@@ -1,0 +1,57 @@
+# Byte-code files
+*.pyc
+__pycache__
+*.$py.class
+
+# Distribution / packaging
+.Python
+build/
+dist/
+wheels/
+*.egg-info/
+*.egg
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Editors and IDEs
+.idea/  # For PyCharm
+.vscode/ # For VS Code (only ignore specific user settings, not extensions.json or launch.json)
+*.swp
+
+# OS-specific files
+.DS_Store  # macOS
+
+# mypy
+.mypy_cache/
+
+# coverage reports
+.coverage
+.coverage.*
+htmlcov/
+.nox/
+.tox/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-line.txt
+
+# Unit test / coverage reports
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.rpt2_cache/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data and Logs
+*.log
+*.sqlite
+*.db
